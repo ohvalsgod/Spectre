@@ -29,6 +29,13 @@ public class SpectrePlugin extends JavaPlugin implements Listener {
 
         // Register textures
         // TODO: Pull texture values from Mojang instead of storing manually
+        Texture carson = new Texture();
+
+        carson.setUsername("Sulium");
+        carson.setUuid(UUID.fromString("65e467ff-5dab-450b-bfc3-288697948374"));
+        carson.setValue("eyJ0aW1lc3RhbXAiOjE1MzYxNzkxNTI5MzUsInByb2ZpbGVJZCI6IjY1ZTQ2N2ZmNWRhYjQ1MGJiZmMzMjg4Njk3OTQ4Mzc0IiwicHJvZmlsZU5hbWUiOiJTdWxpdW0iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY0Y2E2ODExZjY4NTU4ZjNlZGU0NDNlZjBmYTUyYjA5MTFhMjVkYjQyYzY1NDNmZDA1Yzk4YjRhZDg1MDViZTYifSwiQ0FQRSI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U3ZGZlYTE2ZGM4M2M5N2RmMDFhMTJmYWJiZDEyMTYzNTljMGNkMGVhNDJmOTk5OWI2ZTk3YzU4NDk2M2U5ODAifX19");
+        carson.setSignature("RFwuBAuRMQUTZA0IVFre5FC2JyCUSsYQa55GY8HXZn8/4Pg76tC9FcZZKRtO442UXu4hCT4wyhCYU36f6LFtAafxkaSEi/FxbEJZjiWtYok9ONATiRMhNpNzlim7rb2u5RVeyxcaAQQ1woGF2qz2Lbw3xbTQEtdRgovTGYD3CqCAt/VEsLoq0HfPFidH8nBtkFJWM1dp7AVg5QoFisPXHMgMUD+XZzJalPdnnUplCE5XNCQlhQLI4P3uxVPmntG9d8OitlHYrwey+FdDiuBNEA1e1I7jBWrS9tj1XIzDW5QtWZ7stqEO7f53m7zYgNHzic0NrPjNQ3os6/Ag4jAdloOg8V7hUeZRdoh6xBbDDO5EU2JasmMSt4qp/NB83iWO+Eku7THXEef0Qih5HcvooRFXdSgwhcEZC9afIBO+nuvFUYOl9mOMggKeZEBs5gJQtk+Flaty40UVUSF+kDXFnwlfqrOhSgyal7vdiu6mSrssJtZdWqx77gk5hEHEC+ofgDXrM7CWXFo5ddgpJCa9qzOSyw+2BoCS0R8taix8/IE211JL1m9YUkCvw7J/SgG+1DrvEGwGOtHTdVlapV0xN1pGkG2xyahpo01h9rE4/s3OwEUteln7gI2P1/W0i3iWKt1BSpxRjMBCAuUqUAAjk9MLYIyRJUEo2+npgd6ccdU=");
+
         Texture jon = new Texture();
 
         jon.setUsername("itsjhalt");
@@ -56,6 +63,7 @@ public class SpectrePlugin extends JavaPlugin implements Listener {
         prestige.setValue("eyJ0aW1lc3RhbXAiOjE1MjcxMjk1NzY0MDEsInByb2ZpbGVJZCI6ImFiMDEyYTA0NGM5NjQ1NmY4NmEwY2I3YmRmZGIwNjRiIiwicHJvZmlsZU5hbWUiOiJQcmVzdGlnZV9QdlAiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRjZjRhYTFjNGE1NDE4YWNkMTE3NDU0ZjA0NDIzNzc2YzdlMjdlNDM0ZjBmYzdmNzMzYWY5ODdmMjJkNjkwZGMifX19");
         prestige.setSignature("WPkvrcsVYjlDgZ8NajHgfPU4PoTuoRSbPF2/BuB4mJcql1pVxjdatAbTYVWlqtYUFuMY/YuuFLBQfhOLvHZ82WvshM8/vj4HU6svlYBYx7EzlrcuOOw7l58wra3w3PvLImiqWcqKTI0vExH7dZYzeMtR2OozJ97Bo25XvWTZcwE2svbyYDlEpZt++Xich8r33h1mShLaA/QDFLu3LkVp8KknZN20SpH1zAvjUFCeb0Cl2aqVD7eNVE+zeO4GWNRVr/kpMnJxL9wrOosn6lwQORBOZjL9gvcaEvT0BsqyyN1m87HsSPGBcxsu9uSPrGdsUKhGHOa2OqtzFoLstqMgE5ZJ7Z1X6fv5yzB5P+4/P3g0G4uVI6NMw4geESKjSw3VbjYrbYBBONne3bjsTqiz7SGiOBUpoEjFqUM/tYEyDtGYWEp8RVmfkIZW1+c03K1yMqNkbrWpb0m0hY91fg57SoYZl6SNFTdCEcURsdLptVZ2jmmUHRDWRa0fKVP1/aDTzEOk5RPl1QkR+mhkEkzsUpycjYdTqLIhcXlU58Kf8f2MEI3F4rNM2WExTmTpDtyQ+OgUuGkMcntLgtRKJvx+HMh0/PLCpgzW9TBuEsiQfpuTKewzCKwOgE3T1mZa4gzN3ftY/fBofOfKHMGEj7lFKDOe5uBEaQxLXL7VhBBGGX0=");
 
+        Texture.getTextures().add(carson);
         Texture.getTextures().add(jon);
         Texture.getTextures().add(zylowh);
         Texture.getTextures().add(idiol);
@@ -68,11 +76,11 @@ public class SpectrePlugin extends JavaPlugin implements Listener {
             case "buttfuck": {
                 Location cloned = event.getPlayer().getLocation().clone();
 
-                SpectreEntity tre = new SpectreEntity(ChatColor.BLUE + "Prestige_PvP", cloned);
+                SpectreEntity sulium = new SpectreEntity(ChatColor.BLUE + "Sulium", cloned);
 
-                tre.setTexture(Texture.getByUsername("prestige_pvp"));
-                tre.setAnimation(new SneakingAnimation(tre));
-                tre.sendInitialPackets(event.getPlayer());
+                sulium.setTexture(Texture.getByUsername("Sulium"));
+                sulium.setAnimation(new SneakingAnimation(sulium));
+                sulium.sendInitialPackets(event.getPlayer());
 
                 Direction.getFromYaw(event.getPlayer().getLocation().getYaw()).getOpposite().move(cloned, 0.6F);
 
