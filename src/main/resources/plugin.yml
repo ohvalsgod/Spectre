@@ -1,0 +1,6 @@
+name: Spectre
+description: An interactive NPC library.
+author: joeleoli
+version: 1.0
+main: me.joeleoli.spectre.SpectrePlugin
+depend: [ProtocolLib]
