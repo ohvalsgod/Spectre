@@ -1,4 +1,4 @@
-package me.joeleoli.spectre;
+package me.ohvalsgod.spectre;
 
 import com.comphenix.protocol.PacketType;
 import com.comphenix.protocol.ProtocolLibrary;
@@ -9,8 +9,8 @@ import com.comphenix.protocol.wrappers.PlayerInfoData;
 import com.comphenix.protocol.wrappers.WrappedGameProfile;
 import com.comphenix.protocol.wrappers.WrappedSignedProperty;
 
-import me.joeleoli.spectre.entity.SpectreEntity;
-import me.joeleoli.spectre.thread.AnimationThread;
+import me.ohvalsgod.spectre.entity.SpectreEntity;
+import me.ohvalsgod.spectre.thread.AnimationThread;
 
 import lombok.Getter;
 

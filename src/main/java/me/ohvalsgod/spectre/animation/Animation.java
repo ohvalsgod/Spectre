@@ -1,6 +1,6 @@
-package me.joeleoli.spectre.animation;
+package me.ohvalsgod.spectre.animation;
 
-import me.joeleoli.spectre.entity.SpectreEntity;
+import me.ohvalsgod.spectre.entity.SpectreEntity;
 
 import lombok.Data;
 

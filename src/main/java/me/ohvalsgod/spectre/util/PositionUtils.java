@@ -1,4 +1,4 @@
-package me.joeleoli.spectre.util;
+package me.ohvalsgod.spectre.util;
 
 public class PositionUtils {
 

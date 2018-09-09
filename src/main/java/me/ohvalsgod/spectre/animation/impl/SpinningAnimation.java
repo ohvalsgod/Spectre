@@ -1,10 +1,10 @@
-package me.joeleoli.spectre.animation.impl;
+package me.ohvalsgod.spectre.animation.impl;
 
 import com.comphenix.protocol.ProtocolLibrary;
 import com.comphenix.protocol.events.PacketContainer;
 
-import me.joeleoli.spectre.animation.Animation;
-import me.joeleoli.spectre.entity.SpectreEntity;
+import me.ohvalsgod.spectre.animation.Animation;
+import me.ohvalsgod.spectre.entity.SpectreEntity;
 
 import java.lang.reflect.InvocationTargetException;
 

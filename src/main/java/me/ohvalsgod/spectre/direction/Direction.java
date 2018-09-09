@@ -1,4 +1,4 @@
-package me.joeleoli.spectre.direction;
+package me.ohvalsgod.spectre.direction;
 
 import org.bukkit.Location;
 

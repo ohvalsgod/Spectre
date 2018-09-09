@@ -1,14 +1,14 @@
-package me.joeleoli.spectre.entity;
+package me.ohvalsgod.spectre.entity;
 
 import com.comphenix.protocol.PacketType;
 import com.comphenix.protocol.ProtocolLibrary;
 import com.comphenix.protocol.events.PacketContainer;
 import com.comphenix.protocol.wrappers.*;
 
-import me.joeleoli.spectre.animation.Animation;
-import me.joeleoli.spectre.direction.Direction;
-import me.joeleoli.spectre.texture.Texture;
-import me.joeleoli.spectre.util.PositionUtils;
+import me.ohvalsgod.spectre.animation.Animation;
+import me.ohvalsgod.spectre.direction.Direction;
+import me.ohvalsgod.spectre.texture.Texture;
+import me.ohvalsgod.spectre.util.PositionUtils;
 
 import lombok.Data;
 import lombok.Getter;

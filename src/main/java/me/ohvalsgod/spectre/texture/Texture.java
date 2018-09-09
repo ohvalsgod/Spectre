@@ -1,4 +1,4 @@
-package me.joeleoli.spectre.texture;
+package me.ohvalsgod.spectre.texture;
 
 import lombok.Data;
 import lombok.Getter;
@@ -18,13 +18,16 @@ public class Texture {
     private String value;
     private String signature;
 
+    public Texture(UUID uuid) {
+
+    }
+
     public static Texture getByUsername(String username) {
         for (Texture texture : textures) {
             if (texture.getUsername().equalsIgnoreCase(username)) {
                 return texture;
             }
         }
-
         return null;
     }
 

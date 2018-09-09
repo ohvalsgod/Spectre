@@ -1,6 +1,6 @@
-package me.joeleoli.spectre.thread;
+package me.ohvalsgod.spectre.thread;
 
-import me.joeleoli.spectre.entity.SpectreEntity;
+import me.ohvalsgod.spectre.entity.SpectreEntity;
 
 /**
  * Ticks entities that have animations

@@ -1,10 +1,10 @@
-package me.joeleoli.spectre;
+package me.ohvalsgod.spectre;
 
-import me.joeleoli.spectre.animation.impl.SneakingAnimation;
-import me.joeleoli.spectre.animation.impl.WalkingAnimation;
-import me.joeleoli.spectre.direction.Direction;
-import me.joeleoli.spectre.entity.SpectreEntity;
-import me.joeleoli.spectre.texture.Texture;
+import me.ohvalsgod.spectre.animation.impl.SneakingAnimation;
+import me.ohvalsgod.spectre.animation.impl.WalkingAnimation;
+import me.ohvalsgod.spectre.direction.Direction;
+import me.ohvalsgod.spectre.entity.SpectreEntity;
+import me.ohvalsgod.spectre.texture.Texture;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
